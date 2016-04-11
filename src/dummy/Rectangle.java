@@ -1,6 +1,6 @@
 package dummy;
 
-public class Rectangle extends Figure {
+public class Rectangle extends Parallelogram {
 
 	public Rectangle() {
 		color.setColor("Green");
