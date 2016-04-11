@@ -6,7 +6,12 @@ import org.junit.Test;
 
 public class ColorTest {
 
-
+	@Test
+	public void testColor() {
+		Color c = new Color();
+		c.setColor("Purple");
+		assertEquals(c.getColor(),"Purple");
+	}
 	
 	@Test
 	public void testColorRectangle() {
