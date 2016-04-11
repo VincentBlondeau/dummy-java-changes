@@ -14,9 +14,5 @@ public class Rectangle extends Parallelogram {
 		return true;
 	}
 	
-	boolean hasSidesParallel() {
-		return true;
-	}
 
-	
 }
