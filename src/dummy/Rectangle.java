@@ -14,5 +14,6 @@ public class Rectangle extends Figure {
 		return true;
 	}
 	
+
 	
 }
