@@ -14,6 +14,9 @@ public class Rectangle extends Figure {
 		return true;
 	}
 	
+	boolean hasSidesParallel() {
+		return true;
+	}
 
 	
 }
