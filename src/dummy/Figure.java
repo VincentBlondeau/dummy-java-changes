@@ -2,7 +2,7 @@ package dummy;
 
 public class Figure {
 
-	Color color = new Color("White");
+	Color color = new Color("Blue");
 	int length;
 	int height;
 
