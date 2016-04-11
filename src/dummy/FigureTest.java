@@ -34,7 +34,7 @@ public class FigureTest {
 	@Test
 	public void testHasSidesParallel() {
 		Figure f = new Rectangle();
-		assertFalse(f.hasSidesParallel());
+		assertTrue(f.hasSidesParallel());
 	}
 	
 	
