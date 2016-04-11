@@ -1,6 +1,6 @@
 package dummy;
 
-public class Parallelogram extends Figure {
+public class Parallelogram extends AbstractFigure {
 
 	int numberOfRightAngles() {
 		return 0;

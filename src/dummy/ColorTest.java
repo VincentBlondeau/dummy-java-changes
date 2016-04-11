@@ -15,13 +15,13 @@ public class ColorTest {
 	
 	@Test
 	public void testColorRectangle() {
-		Figure f = new Rectangle();
+		AbstractFigure f = new Rectangle();
 		assertEquals(f.getColor(),"Green");
 	}
 	
 	@Test
 	public void testColorSquare() {
-		Figure f = new Square();
+		AbstractFigure f = new Square();
 		assertEquals(f.getColor(),"Black");
 	}
 	

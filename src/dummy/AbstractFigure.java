@@ -1,12 +1,12 @@
 package dummy;
 
-public class Figure {
+public class AbstractFigure {
 
 	Color color = new Color("Blue");
 	int length;
 	int height;
 
-	Figure() {
+	AbstractFigure() {
 		length = 10;
 		height = 10;
 	}
