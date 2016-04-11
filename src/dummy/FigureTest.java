@@ -53,7 +53,7 @@ public class FigureTest {
 	@Test
 	public void testSurface() {
 		Figure f = new Figure();
-		assertEquals(f.surface(),100);
+		assertEquals(f.surface(),20);
 	}
 	
 }
