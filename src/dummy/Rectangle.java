@@ -3,7 +3,7 @@ package dummy;
 public class Rectangle extends Parallelogram {
 
 	public Rectangle() {
-		color.setColor("Green");
+		color.setColor("Yellow");
 	}
 	
 	int numberOfRightAngles() {
