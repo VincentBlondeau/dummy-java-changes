@@ -48,7 +48,7 @@ public class Figure {
 	}
 
 	int surface() {
-		return length * height;
+		return length + height;
 	}
 
 }
