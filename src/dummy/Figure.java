@@ -3,7 +3,7 @@ package dummy;
 public class Figure {
 
 	Color color = new Color("White");
-	
+	int length;
 	int height;
 
 	Figure() {
